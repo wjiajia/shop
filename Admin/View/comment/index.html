@@ -1,0 +1,53 @@
+<include file="Public/header" />
+<div class="row">
+	<div class="col-md-12">
+		<h1 class="page-header">留言列表</h1>	
+	</div>
+	<div class="col-md-12">
+		<div class="col-lg-6">
+		</div>
+		<div class="col-lg-6">
+		<form class="form-inline" role="form" action="{:U('Comment/search')}" method="get">
+			<div class="input-group">
+				<input type="text" class="form-control" name="username" />
+				<span class="input-group-btn">
+				<button class="btn btn-default" type="submit">搜索用户名</button>
+				</span>
+			</div><!-- /input-group -->
+		</form>
+		</div><!-- /.col-lg-6 -->
+	</div>
+	<div class="col-md-12">
+		<table class="table table-striped">
+			<thead>
+				<tr>
+					<th>ID</th>
+					<th>UserName</th>
+					<th>Email</th>
+					<th>Subject</th>
+					<th>Status</th>
+					<th>Addtime</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+			<tbody>
+				<foreach name="list" item="vo">
+				<tr>
+					<td>{$vo.comment_id}</td>
+					<td>{$vo.username}</td>
+					<td>{$vo.email}</td>
+					<td><a href="{:U('Admin/Comment/show', array('id'=>$vo['comment_id']))}">{$vo.subject}</a></td>
+					<td>{$vo.status|getStatusValue}</td>
+					<td>{$vo.addtime|date='Y-m-d H:i:s', ###}</td>
+					<td>
+						<a href="{:U('Admin/Comment/setAnswer', array('id'=>$vo['comment_id']))}">标记为回复</a> | 
+						<a href="{:U('Admin/Comment/setDele', array('id'=>$vo['comment_id']))}">删除</a>
+					</td>
+				</tr>
+				</foreach>
+			</tbody>
+		</table>
+	</div>
+</div>
+<include file="Public/footer" />
+

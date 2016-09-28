@@ -1,0 +1,60 @@
+[ 2016-09-27T14:24:09+08:00 ] 127.0.0.1 /TP/shop/index.php/Admin/Comment/chart.html
+ERR: 非法操作:chart
+
+[ 2016-09-27T14:24:14+08:00 ] 127.0.0.1 /TP/shop/index.php/Admin/Comment/chart.html
+ERR: 非法操作:chart
+
+[ 2016-09-27T14:24:22+08:00 ] 127.0.0.1 /TP/shop/index.php/Admin/Comment/tab-panel.html
+ERR: 非法操作:tab-panel
+
+[ 2016-09-27T14:24:54+08:00 ] 127.0.0.1 /TP/shop/index.php/Admin/Comment/chart.html
+ERR: 非法操作:chart
+
+[ 2016-09-27T14:29:17+08:00 ] 127.0.0.1 /TP/shop/index.php/Admin/Comment/tab-panel.html
+ERR: 非法操作:tab-panel
+
+[ 2016-09-27T14:34:45+08:00 ] 127.0.0.1 /TP/shop/index.php/Admin/Comment/chart.html
+ERR: 非法操作:chart
+
+[ 2016-09-27T14:39:00+08:00 ] 127.0.0.1 /TP/shop/index.php/Admin/Comment/chart.html
+ERR: 非法操作:chart
+
+[ 2016-09-27T14:41:26+08:00 ] 127.0.0.1 /TP/shop/index.php/Admin/Comment/chart.html
+ERR: 非法操作:chart
+
+[ 2016-09-27T14:54:03+08:00 ] 127.0.0.1 /TP/shop/index.php/Admin/Index/tab_panel.html
+ERR: 模板不存在:E:/wamp/www/TP/shop/Admin/View/Index/tab_panel.html
+
+[ 2016-09-27T14:54:54+08:00 ] 127.0.0.1 /TP/shop/index.php/Admin/Index/tab_panel.html
+ERR: 模板不存在:E:/wamp/www/TP/shop/Admin/View/Index/tab_panel.html
+
+[ 2016-09-27T14:54:55+08:00 ] 127.0.0.1 /TP/shop/index.php/Admin/Index/tab_panel.html
+ERR: 模板不存在:E:/wamp/www/TP/shop/Admin/View/Index/tab_panel.html
+
+[ 2016-09-27T14:54:59+08:00 ] 127.0.0.1 /TP/shop/index.php/Admin/Index/tab_panel.html
+ERR: 模板不存在:E:/wamp/www/TP/shop/Admin/View/Index/tab_panel.html
+
+[ 2016-09-27T15:01:06+08:00 ] 127.0.0.1 /TP/shop/index.php/Admin/Comment/markup/id/4.html
+ERR: 非法操作:markup
+
+[ 2016-09-27T15:05:23+08:00 ] 127.0.0.1 /TP/shop/index.php/Admin/Comment/is_dele.html%7D
+ERR: 非法操作:is_dele.html}
+
+[ 2016-09-27T15:06:02+08:00 ] 127.0.0.1 /TP/shop/index.php/Admin/Comment/is_dele.html%7D
+ERR: 非法操作:is_dele.html}
+
+[ 2016-09-27T15:06:12+08:00 ] 127.0.0.1 /TP/shop/index.php/Admin/Comment/is_dele.html
+ERR: 模板不存在:E:/wamp/www/TP/shop/Admin/View/Comment/is_dele.html
+
+[ 2016-09-27T16:58:46+08:00 ] 127.0.0.1 /TP/shop/index.php/Admin/Comment/del/id/3.html
+ERR: 非法操作:del
+
+[ 2016-09-27T17:24:54+08:00 ] 127.0.0.1 /TP/shop/index.php/Admin/Admin/Comment.html
+ERR: 无法加载控制器:Admin
+
+[ 2016-09-27T17:26:03+08:00 ] 127.0.0.1 /TP/shop/index.php/Admin/Comment/search.html?username=test7
+ERR: 非法操作:search
+
+[ 2016-09-27T17:43:34+08:00 ] 127.0.0.1 /TP/shop/index.php/Admin/Comment/search.html?username=test7
+ERR: 模板不存在:E:/wamp/www/TP/shop/Admin/View/Comment/search.html
+

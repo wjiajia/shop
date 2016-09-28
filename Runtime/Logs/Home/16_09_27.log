@@ -1,0 +1,6 @@
+[ 2016-09-27T10:58:07+08:00 ] 127.0.0.1 /TP/shop/index.php/Home/Comment/addComment.html
+ERR: Think\Controller:create方法不存在！
+
+[ 2016-09-27T11:15:46+08:00 ] 127.0.0.1 /TP/shop/index.php/Home/Comment/addComment.html
+ERR: Think\Controller:create方法不存在！
+
